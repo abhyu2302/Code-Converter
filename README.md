@@ -27,14 +27,14 @@ It supports conversions between **Binary, Gray, BCD, and Excess-3** codes in bot
 - **Control Path**
   - `control_unit.v` – FSM for operation sequencing
 - **Integration**
-  - `code_converter_top.v` – Top module
+  - `converter_topmodule.v` – Top module
 - **Verification**
-  - `tb_code_converter.v` – Testbench with example cases
+  - `converter_tb.v` – Testbench with example cases
 
 ---
 
 ## Simulation
 1. Compile all modules in **ModelSim, Vivado, or EDA Playground**.  
-2. Run `tb_code_converter.v`.  
+2. Run `converter_tb.v`.  
 3. Example output:
 
