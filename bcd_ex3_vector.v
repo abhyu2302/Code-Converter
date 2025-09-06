@@ -24,3 +24,5 @@ module ex3_to_bcd_vector #(parameter DIGITS = 3)(
     end
   endgenerate
 endmodule
+
+//Applies the single-digit add/sub-3 across all digits in parallel.
